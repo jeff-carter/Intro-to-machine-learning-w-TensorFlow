@@ -14406,7 +14406,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: Total number of records</span>
@@ -14495,7 +14495,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Split the data into features and target label</span>
@@ -14523,7 +14523,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>/Users/jeff/workspace/python/udacity/projects/intro-to-ml-tensorflow/projects/p1_charityml/visuals.py:48: UserWarning: Matplotlib is currently using module://ipykernel.pylab.backend_inline, which is a non-GUI backend, so cannot show the figure.
+<pre>/Users/jeff/workspace/github/udacity/intro-to-machine-learning-w-TensorFlow/finding_donors/visuals.py:48: UserWarning: Matplotlib is currently using module://ipykernel.pylab.backend_inline, which is a non-GUI backend, so cannot show the figure.
   fig.show()
 </pre>
 </div>
@@ -14559,7 +14559,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Log-transform the skewed features</span>
@@ -14611,7 +14611,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import sklearn.preprocessing.StandardScaler</span>
@@ -14825,7 +14825,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># TODO: One-hot encode the &#39;features_log_minmax_transform&#39; data using pandas.get_dummies()</span>
@@ -14878,7 +14878,7 @@ Percentage of individuals making more than $50,000: 0.2478439697492371%
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Import train_test_split</span>
@@ -14964,7 +14964,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39;</span>
@@ -14977,11 +14977,11 @@ It is a ratio of true positives(words classified as spam, and which are actually
 <span class="sd">&#39;&#39;&#39;</span>
 <span class="c1"># TODO: Calculate accuracy, precision and recall</span>
 <span class="n">true_pos</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">income</span><span class="p">)</span>
-<span class="n">false_pos</span> <span class="o">=</span> <span class="n">income</span><span class="o">.</span><span class="n">count</span><span class="p">()</span>
+<span class="n">false_pos</span> <span class="o">=</span> <span class="p">(</span><span class="n">income</span><span class="o">==</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
 <span class="n">true_neg</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="n">false_neg</span> <span class="o">=</span> <span class="mi">0</span>
 
-<span class="n">accuracy</span> <span class="o">=</span> <span class="p">(</span><span class="n">true_pos</span><span class="o">+</span><span class="n">true_neg</span><span class="p">)</span> <span class="o">/</span> <span class="p">(</span><span class="n">true_pos</span><span class="o">+</span><span class="n">true_neg</span><span class="o">+</span><span class="n">false_pos</span><span class="o">+</span><span class="n">false_neg</span><span class="p">)</span>
+<span class="n">accuracy</span> <span class="o">=</span> <span class="p">(</span><span class="n">true_pos</span><span class="o">+</span><span class="n">true_neg</span><span class="p">)</span> <span class="o">/</span> <span class="n">income</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">recall</span> <span class="o">=</span> <span class="n">true_pos</span> <span class="o">/</span> <span class="p">(</span><span class="n">true_pos</span><span class="o">+</span><span class="n">false_neg</span><span class="p">)</span>
 <span class="n">precision</span> <span class="o">=</span> <span class="n">true_pos</span> <span class="o">/</span> <span class="p">(</span><span class="n">true_pos</span><span class="o">+</span><span class="n">false_pos</span><span class="p">)</span>
 
@@ -15010,7 +15010,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Naive Predictor: [Accuracy score: 0.1986, F-score: 0.2365]
+<pre>Naive Predictor: [Accuracy score: 0.2478, F-score: 0.2917]
 </pre>
 </div>
 </div>
@@ -15528,7 +15528,7 @@ Final F-score on the testing data: 0.7499
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><strong>Answer: </strong></p>
 <p>The optimized model's accuracy and F-score were a very slight improvement over the unoptimized model. In terms of relative percent improvement, each score improved by about 1%.</p>
-<p>Although these metrics are not perfect, the scores of our model is much better than the naive predictor we previously discussed. As you might recall, for the naive predictor we predicted that every individual had an income greater than $50,000. The accuracy of this predictor was 19.86% and the F-score was 23.65%. Our model is an improvement of accuracy greater than 200%, and an improvment in F-score greater than 300% (expressed in relative percents).</p>
+<p>Although these metrics are not perfect, the scores of our model are much better than the naive predictor we previously discussed. As you might recall, for the naive predictor we predicted that every individual had an income greater than $50,000. The accuracy of this predictor was 24.78% and the F-score was 29.17%. Our model is an improvement in accuracy greater than 250%, and an improvment in F-score greater than 150% (expressed in relative percents).</p>
 
 </div>
 </div>
